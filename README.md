@@ -2,7 +2,7 @@
 [![](https://github.com/valenxie/twitter_postgres/workflows/tests_denormalized/badge.svg)](https://github.com/valenxie/twitter_postgres/actions?query=workflow%3Atests)
 [![](https://github.com/valenxie/twitter_postgres/workflows/tests_normalized/badge.svg)](https://github.com/valenxie/twitter_postgres/actions?query=workflow%3Atests)
 
-You will repeat the Twitter/MapReduce assignment using Postgres.
+you will repeat the Twitter/MapReduce assignment using Postgres.
 Because this assignment will involve many new programming concepts,
 it will be spread out over several assignments.
 
