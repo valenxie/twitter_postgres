@@ -324,7 +324,13 @@ def insert_tweet(connection,tweet):
         for medium in media:
             id_urls = get_id_urls(medium['media_url'])
             sql=sqlalchemy.sql.text('''
+                INSERT INTO tweet_media (id_tweets,id_urls) VALUES (:id_tweets,:id_urls)
                 ''')
+            connection.execute(sql,{
+                'id_tweets':tweet['id'],
+                'id_urls':id_urls
+                })
+
 
 
 # loop through the input file
